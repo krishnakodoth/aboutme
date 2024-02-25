@@ -1,4 +1,5 @@
 import './App.css';
+import About from './components/About';
 import Profile from './components/Profile';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <header>
           <Profile />
       </header>
+      <About />
     </>
   );
 }
