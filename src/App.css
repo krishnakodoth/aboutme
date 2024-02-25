@@ -1,0 +1,37 @@
+header {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  background-image: url(./assets/images/h-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 0;
+}
+
+.profile-img {
+  display: flex;
+  justify-content: center;
+}
+.profile-img img {
+  border: solid 1px #fff;
+  width: 300px;
+  border-radius: 100%;
+  box-shadow: 0 0 7px 11px #09090952;
+  transform: rotate(332deg);
+}
+
+header h1 {
+  font-size: 250%;
+  text-align: center;
+  font-weight: 600!important;
+  color: #353239;
+  font-family: "Franklin Gothic Medium","Arial Narrow",Arial,sans-serif;
+  margin: 0 auto 18px;
+  width: 100%;
+}
+.title-styles {
+  font-family: "Raleway",sans-serif;
+}
