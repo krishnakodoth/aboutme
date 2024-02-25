@@ -51,7 +51,8 @@ const About = () => {
                     achieve my career goals. A technology enthusiast with
                     ability to provide elegant, efficient and maintainable
                     solutions to complex problems that fit constraints of
-                    business and long term vision.. Thank you 💜
+                    business and long term vision.. <br />
+                    Thank you 💜
                   </p>
                 </div>
               </div>
