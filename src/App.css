@@ -439,3 +439,31 @@ img {
 .blackleText {
   color: #333;
 }
+
+/* | Footer | */
+footer {
+  background: #1f1f1f;
+  min-height: 50px;
+  width: 100%;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 14px;
+}
+footer .social-links{
+  margin-top: 30px;
+  font-size: 22px;
+}
+.p-5 {
+  padding: 0 5px;
+}
+footer .social-links a {
+  color: #fff;
+}
+footer small {
+  display: block;
+  text-align: right;
+  padding-bottom: 1.5rem!important;
+  padding-top: 1.5rem!important;
+}

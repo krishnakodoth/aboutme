@@ -2,7 +2,7 @@ import React from "react";
 import { MdLocationOn } from "react-icons/md";
 import { MdEmail } from "react-icons/md";
 import { FaMobileScreenButton } from "react-icons/fa6";
-import { FaGithub } from "react-icons/fa";
+
 
 
 const Contact = () => {
@@ -57,17 +57,7 @@ const Contact = () => {
               </div>
             </div>
           </li>
-          <li>
-            <div className="list_inner">
-              <div className="icons blackBackground">
-              <FaGithub className="icon blackleText"/>
-              </div>
-              <div className="short">
-                <h3>GitHub</h3>
-                <a href="https://github.com/krishnakodoth" target="_blank">https://github.com/krishnakodoth</a>
-              </div>
-            </div>
-          </li>
+          
         </ul>
       </div>
     </section>
