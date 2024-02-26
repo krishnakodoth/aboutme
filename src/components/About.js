@@ -12,7 +12,7 @@ const About = () => {
   return (
     <section id="about">
       <div className="col-md-12">
-        <h1>About me</h1>
+        <h1 className="section-title">About me</h1>
         <div className="row center mx-auto mb-5">
           <div className="col-md-4 mb-5 center">
             <div className="polaroid">

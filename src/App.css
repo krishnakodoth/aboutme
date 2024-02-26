@@ -1,3 +1,8 @@
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
 header {
   position: relative;
   width: 100%;
@@ -41,7 +46,7 @@ header h1 {
   overflow: hidden;
   border-top: solid 5px #a284b5;
 }
-#about h1 {
+h1.section-title {
   padding-top: 1%;
   font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
@@ -49,10 +54,22 @@ header h1 {
   color: #000;
   text-align: center;
 }
+.col-lg-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.d-block {
+  display: block !important;
+}
 
 .ml-auto,
 .mx-auto {
   margin-left: auto !important;
+  margin-right: auto !important;
 }
 .mb-5,
 .my-5 {
@@ -148,4 +165,123 @@ img {
 
 .wave {
   font-size: 160%;
+}
+
+#projects {
+  background-color: #f8f7f3;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.portfolio-item {
+  max-width: 100%;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.foto img {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.foto div {
+  background: #fff;
+  display: inline-block;
+  margin: 0 auto 5%;
+  padding: 10px 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s linear;
+  z-index: 0;
+  position: relative;
+}
+.foto div:after {
+  color: #333;
+  font-size: 25px;
+  content: attr(title);
+  position: relative;
+  top: 15px;
+}
+.foto div:hover {
+  transform: scale(1.01);
+  z-index: 10;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.col-md-12 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.project-date {
+  font-size: 16px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 8px 15px 2px;
+  position: relative;
+  z-index: -500;
+  border-top: 5px solid #696969;
+  border-radius: 0 0 5px 5px;
+  background-color: #696969;
+  color: #fff;
+}
+.project-title-settings {
+  margin-top: 5%;
+  font: 18px/24px "opensans-bold", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #000;
+  text-align: center;
+}
+
+#skills {
+  min-height: 200px;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 10%;
+  background: #fff;
+  border-bottom: solid 5px #ddd;
+}
+.skill-icon {
+  color: #000000;
+  text-align: center;
+  position: relative;
+}
+
+.list-inline,
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.text-center {
+  text-align: center !important;
+}
+.ml-3, .mx-3 {
+  margin-left: 1rem!important;
+}
+.list-inline-item {
+  display: inline-block;
+}
+.skills-tile {
+  background-color: rgb(49 120 185 / 45%);
+  padding: 10px 10px 5px;
+  width: 100px;
+  margin: 5px 0;
+  border-radius: 8px;
+}
+.skills-tile i {
+  font-size: 220%;
+}
+.skills-tile i p {
+  font-size: 40%;
+  margin-top: 4px;
 }

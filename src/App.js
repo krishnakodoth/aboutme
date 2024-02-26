@@ -1,14 +1,16 @@
 import './App.css';
 import About from './components/About';
 import Profile from './components/Profile';
+import Projects from './components/Projects';
+import Skills from './components/Skills';
 
 function App() {
   return (
     <>
-      <header>
-          <Profile />
-      </header>
+      <Profile />
       <About />
+      <Projects />
+      <Skills />
     </>
   );
 }
