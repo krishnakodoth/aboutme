@@ -37,6 +37,36 @@ header h1 {
   margin: 0 auto 18px;
   width: 100%;
 }
+a.download {
+  width: 150px;
+  height: 50px;
+  background-color: #F34D35;
+  color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: background-color 0.5s;
+  text-decoration: none;
+  box-shadow: 0 0 10px 6px #fff;
+}
+a.download:hover {
+  background-color: #ECF0F1;
+  color: #F34D35;
+  border: solid 1px #000;
+}
+a.download svg {
+  font-size: 150%;
+  margin: 0 5px;
+}
+
+
 .title-styles {
   font-family: "Raleway", sans-serif;
 }
@@ -51,8 +81,8 @@ h1.section-title {
   font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: #000;
   text-align: center;
+  margin: 0;
 }
 .col-lg-4 {
   flex: 0 0 33.333333%;
@@ -247,11 +277,12 @@ img {
   width: 100%;
   overflow: hidden;
   padding-bottom: 10%;
-  background: #fff;
-  border-bottom: solid 5px #ddd;
+  background: #0c123c;
+  border-top: solid 5px #ddd;
+  color: #fff;
 }
 .skill-icon {
-  color: #000000;
+  color: #fff;
   text-align: center;
   position: relative;
 }
@@ -265,14 +296,15 @@ img {
 .text-center {
   text-align: center !important;
 }
-.ml-3, .mx-3 {
-  margin-left: 1rem!important;
+.ml-3,
+.mx-3 {
+  margin-left: 1rem !important;
 }
 .list-inline-item {
   display: inline-block;
 }
 .skills-tile {
-  background-color: rgb(49 120 185 / 45%);
+  background-color: #6877e073;
   padding: 10px 10px 5px;
   width: 100px;
   margin: 5px 0;
@@ -284,4 +316,27 @@ img {
 .skills-tile i p {
   font-size: 40%;
   margin-top: 4px;
+}
+
+/* Experience  */
+
+#experience {
+  background-image: url(./assets/images/h-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 400px;
+  border-top: solid 5px #a284b5;
+}
+.pb-5,
+.py-5 {
+  padding-bottom: 3rem !important;
+}
+
+.experience-icon {
+  font-size: 200%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
 }
